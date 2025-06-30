@@ -1,0 +1,5 @@
+add_executable(main_exec main.cpp)
+target_link_libraries(main_exec PRIVATE CSRMatrix)
+target_link_libraries(main_exec PRIVATE MSRMatrix)
+target_link_libraries(main_exec PRIVATE matrixUtils)
+target_link_libraries(main_exec PRIVATE gmresUtils)
